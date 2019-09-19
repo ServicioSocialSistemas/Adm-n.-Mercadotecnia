@@ -1,0 +1,16 @@
+body{
+margin: 0 auto;
+padding: 10px;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: #ffffff;
+font-family: "montserrat";
+}
+p{
+    justify-content: justify;
+    align-items: center;
+    color: #000000;
+    text-align: justify;
+    font-size: 14px;
+  }

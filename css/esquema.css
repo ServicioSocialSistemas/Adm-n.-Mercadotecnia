@@ -1,0 +1,49 @@
+body{
+    padding: 20px;
+}
+.text-justify#textcard{
+    color: #ffffff;
+    margin: 20px 20px;
+    font-size: 20px;
+}
+.text-justify#textcard1{
+    color: #ffffff;
+    margin: 20px 20px;
+    font-size: 18px;
+}
+.col-6#esquema{
+    
+}
+.citaesquema{
+    margin-top: -130px;
+    text-align: right;
+    color: #838383;
+}
+.text-center#titleesquema{
+    margin-top: 20px;
+    color: #000000;
+}
+.col-6#esquema1{
+    width: 600px;
+}
+img#esquema0{
+    margin-top: -150px;
+    width: 600px;
+    height: 900px;
+}
+.card#esquema3{
+    width: 600px;
+    height: 150px;
+    position: relative;
+    margin: 0 auto;
+    background: #298088;
+    box-shadow: 0 15px 60px rgba(0,0,0,.5);
+}
+.card#esquema4{
+    width: 600px;
+    height: 230px;
+    position: relative;
+    margin: 0 auto;
+    background: #e3244f;
+    box-shadow: 0 15px 60px rgba(0,0,0,.5);
+}

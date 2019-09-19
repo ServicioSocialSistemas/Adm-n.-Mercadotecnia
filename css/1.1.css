@@ -1,0 +1,241 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-weight: 500;
+}
+/* Container 00*/
+.col-12#c00{
+    background: #B1FF00;
+    width: 300px;
+    height: 150px;
+}
+.title{
+    font-size: 60px;
+}
+.col-12#c00 .card#c01{
+    position: relative;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #FFE6E7;
+    box-shadow: 0 15px 40px #353535;
+}
+.col-12#c00 .card#c01 .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-12#c00 .card#c01 .face.face1{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 100%;  
+}
+.col-12#c00 .card#c01 .face.face1 .content h6{
+    position: absolute;
+    color: #000000;
+    margin: 25px 0 0 0;
+    padding: 0;
+}
+.citamkt{
+    color: #606060;
+    margin: 25px 0 0 0;
+    padding: 0;
+    text-align: right;
+}
+.col-12#c00 .card#c01:hover .face.face2{
+    height: 40px;
+}
+.col-12#c00 .card#c01 .face.face2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #FF804F;
+    transition: 0.5s;
+}
+.col-12#c00 .card#c01:hover .face.face2 h5{
+    margin-top: 100px;
+}
+.col-12#c00 .card#c01 .face.face2 h5{
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+.text-center#c02{
+    color: #FFFFFF;
+    font-size: 25px;
+    }
+.col-12#c00 .card#c01:hover .face.face2 .text-center#c02{
+    opacity: 0;
+    }
+/* Container 01 */
+.container#hov0{
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card{
+    box-sizing: border-box;
+    margin: auto;
+    cursor: pointer;
+    width: 200px;
+    height: 300px;
+    background: #ffffff;
+}
+.front,.back{
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+}
+.front img{
+  width: 200px;
+  height: 300px;
+}
+.back img{
+  width: 200px;
+  height: 300px;
+}
+.front{
+  transform: perspective(600px) rotateY(0deg);
+}
+.back{
+  background: #ffffff;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content{
+  color: #2c3e50;
+  text-align: center;
+  width: 80%;
+}
+.sm{
+  margin: 20px 0;
+}
+.card:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+}
+p{
+  justify-content: justify;
+  align-items: center;
+  color: #000000;
+  font-size: 14px;
+}
+.text-right#hov6{
+  color: #4e4e4e;
+}
+
+/* Container 02 */
+.textA{
+    margin: 10px;
+    text-align: justify;
+    color: #000000;
+}
+.textC{
+    margin: 10px;
+    text-align: justify;
+    color: #000000; 
+}
+.containerB{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card#card10{
+width: 100%;
+height: 100%;
+}
+.card-text#cardtext{
+margin: auto;
+color: #000000;
+font-size: 15px;
+}
+.textC{
+    text-align: justify;
+}
+
+/* Container 03*/
+.container-fluid#timeline{
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+.container-fluid#timeline0{
+  width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
+  grid-gap: 150px;
+  margin: auto;
+}
+.container-fluid#timeline0 .card#timeline1{
+  position: relative;
+  width: 240px;
+  height: 270px;
+  margin: auto;
+  background: #FFFFFF;
+  box-shadow: 0 15px 60px rgba(0,0,0,.5);
+}
+.container-fluid#timeline0 .card#timeline1 .face{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid#timeline0 .card#timeline1 .face.face3{
+  box-sizing: border-box;
+  padding: 0px;
+}
+.container-fluid#timeline0 .card#timeline1 .face.face3 img#timeline4{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+.container-fluid#timeline0 .card#timeline1 .face.face4{
+  background: #FFFFFF;
+  height: 213px;
+  opacity: 1;
+  transition: 0.5s;
+}
+.container-fluid#timeline0 .card#timeline1:hover .face.face4{
+    height: 20px;
+    z-index: 1;
+}
+.container-fluid#timeline0 .card#timeline1 .face.face4 h5{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+.container-fluid#timeline0 .card#timeline1:hover .face.face4 .img#timeline3{
+  width: 10%;
+  height: 10%;
+  opacity: 0;
+}
+
+

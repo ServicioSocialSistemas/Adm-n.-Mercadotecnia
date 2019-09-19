@@ -1,0 +1,18 @@
+/* CARD1 */
+.text-justify#contenedor1{
+  color: #000000; 
+}
+.col-6#c10{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card#card10{
+width: 320px;
+height: 270px;
+}
+.card-text#cardtext{
+margin: 0px auto;
+color: #000000;
+font-size: 13px;
+}

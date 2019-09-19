@@ -1,0 +1,84 @@
+@media only screen and (min-width: 1025px) and (max-width: 1360px){
+/* 1.1 */
+/* Container 00 */
+.col-12#c00{
+    background: #00DBFF;
+    width: 300px;
+    height: 150px;
+}
+.title{
+    margin-top: 50px;
+    font-size: 60px;        
+}
+.col-12#c00 .card#c01:hover .face.face2 h5{
+    margin-top: 80px;
+    font-size: 30px; 
+}
+.text-center#c02{
+    margin-top: 0px;
+    color: #FFFFFF;
+    font-size: 25px;
+    }
+/* Container 03 */
+.container-fluid#timeline{
+  margin: 0px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+.container-fluid#timeline0{
+  width: 100%;
+  display: grid;
+  grid-gap: 2px;
+  margin: 0px -40px;
+}
+.container-fluid#timeline0 .card#timeline1{
+  position: relative;
+  width: 200px;
+  height: 260px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  box-shadow: 0 15px 60px rgba(0,0,0,.5);
+}
+.container-fluid#timeline0 .card#timeline1 .face{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid#timeline0 .card#timeline1 .face.face3{
+  box-sizing: border-box;
+  padding: 0px;
+}
+.container-fluid#timeline0 .card#timeline1 .face.face3 img#timeline4{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.container-fluid#timeline0 .card#timeline1 .face.face4{
+  background: #FFFFFF;
+  height: 205px;
+  transition: 0.5s;
+}
+.container-fluid#timeline0 .card#timeline1:hover .face.face4{
+    height: 20px;
+    z-index: 1;
+}
+.container-fluid#timeline0 .card#timeline1 .face.face4 h5{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+.container-fluid#timeline0 .card#timeline1:hover .face.face4 .img#timeline3{
+  width: 10%;
+  height: 10%;
+  opacity: 0;
+}
+
+
+}
